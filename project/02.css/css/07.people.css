@@ -1,0 +1,6 @@
+main .container .people {
+    width:1000px;
+}
+.people .bg-image {
+    position: absolute;
+}

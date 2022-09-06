@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <h2>align-self</h2>
+        <div class="container" style="flex-direction:row;" height:300px;>
+            <div class="item stretch" style="align-self:stretch; height:auto;">stretch<br>height:auto</div>
+            <div class="item" style="align-self:flex-start">flex-start</div>
+            <div class="item" style="align-self:flex-center">flex-center</div>
+            <div class="item" style="align-self:flex-end">flex-end</div>
+        </div>
+    </body>
+</html>
+<style>
+    div {
+        margin:2px;
+        background-color: gray;
+        border:1px dotted black;
+    }
+
+    .container {
+        width:600px; min-height:80px; position:relative; display:flex;
+    }
+    .item {
+        width:100px;
+        height:60px;
+        background-color: yellow;
+        
+    }
+</style>

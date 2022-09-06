@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <H1>기본 디자인</H1>
+    <table class="table-a">
+        <colgroup>
+            <col width="100px">
+            <col width="100px">
+            <col width="300px">
+            <col width="500px">
+        </colgroup>
+
+        <thead>
+            <tr>
+                <th>이름</th>
+                <th>나이</th>
+                <th>연락처</th>
+                <th>주소</th>
+             </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>홍길동</td>
+                <td>21</td>
+                <td>010-2222-3333</td>
+                <td >서울시 강남구 역삼동1</td>
+             </tr>
+             <tr>
+                <td>오길동</td>
+                <td>22</td>
+                <td>010-2222-3333</td>
+                <td>서울시 강남구 역삼동1</td>
+             </tr>
+             <tr>
+                <td>최길동</td>
+                <td>23</td>
+                <td>010-2222-3333</td>
+                <td>서울시 강남구 역삼동1</td>
+             </tr>
+             <tr>
+                <td>나길동</td>
+                <td>24</td>
+                <td>010-2222-3333</td>
+                <td>서울시 강남구 역삼동1</td>
+             </tr>
+             <tr>
+                <td>고길동</td>
+                <td>25</td>
+                <td>010-2222-3333</td>
+                <td>서울시 강남구 역삼동1</td>
+             </tr>
+        </tbody>
+    </table>
+
+    
+    
+    <H1>css 디자인</H1>
+    <table class="table-b">
+        <colgroup>
+            <col width="100px">
+            <col width="100px">
+            <col width="300px">
+            <col width="500px">
+        </colgroup>
+
+        <thead>
+            <tr>
+                <th>이름</th>
+                <th>나이</th>
+                <th>연락처</th>
+                <th>주소</th>
+             </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>홍길동</td>
+                <td>21</td>
+                <td>010-2222-3333</td>
+                <td class="adress">서울시 강남구 역삼동1</td>
+             </tr>
+             <tr>
+                <td>오길동</td>
+                <td>22</td>
+                <td>010-2222-3333</td>
+                <td class="adress">서울시 강남구 역삼동1</td>
+             </tr>
+             <tr>
+                <td>최길동</td>
+                <td>23</td>
+                <td>010-2222-3333</td>
+                <td class="adress">서울시 강남구 역삼동1</td>
+             </tr>
+             <tr>
+                <td>나길동</td>
+                <td>24</td>
+                <td>010-2222-3333</td>
+                <td class="adress">서울시 강남구 역삼동1</td>
+             </tr>
+             <tr>
+                <td>고길동</td>
+                <td>25</td>
+                <td>010-2222-3333</td>
+                <td class="adress">서울시 강남구 역삼동1</td>
+             </tr>
+        </tbody>
+    </table>
+    
+</body>
+<style>
+    .table-b {
+        display:block;
+        /* border-collapse:collapse; */
+        border-radius:5px;
+        width:fit-content;
+        overflow:hidden;
+        border:black 1px solid;
+        border-bottom:none;
+        
+
+    }
+    h1 {
+        margin-top:50px;
+    }
+    .table-b thead tr {
+        background-color: rgb(119,119,218);
+        color:white;
+    }
+    .table-b td {
+        border:none;
+    }
+    .table-b tr {
+        background-color: rgb(240,240,240);
+        border-bottom:1px solid gray;
+        text-align: center; 
+        line-height:50px; 
+        color:rgb(50,50,50);
+    }
+    .table-b .adress {
+        text-align: left;
+        padding-left:10px;
+        font-weight: 800;
+        text-decoration: underline;
+        color:#7a7aff;
+    }
+</style>
+</html>

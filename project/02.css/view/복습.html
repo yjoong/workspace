@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+    <head>
+       <meta charset="UTF-8">
+       <title id="pageTitle">Facebook - 블로그</title>
+    </head>
+    <body>
+        <header>
+            <h1>Facebook - Blog</h1>
+        </header>
+        <main>
+            <section class="container">
+                <ul class="list">
+                    <li>
+                        <div class="card">
+                            <img src="../images/sample-image.jpg" alt="광고 이미지">
+                            <div class="text">
+                                <span class="title">Cha & Kwon</span>
+                                <span class="label">변호사 및 법률 사무소</span>
+                                <span class="label">정천수 님 외 2명이 이 페이지를 좋아합니다</span>
+                            </div>
+                            <button>좋아요</button>
+                            <span class="btn-box"><img src="../images/close.png" alt="닫기버튼"> </span>
+
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="card">
+                            <img src="../images/sample-image.jpg" alt="광고 이미지">
+                            <div class="text">
+                                <span class="title">Cha & Kwon</span>
+                                <span class="label">변호사 및 법률 사무소</span>
+                                <span class="label">정천수 님 외 2명이 이 페이지를 좋아합니다</span>
+                            </div>
+                            <button>좋아요</button>
+                            <span class="btn-box"><img src="../images/close.png" alt="닫기버튼"> </span>
+
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="card">
+                            <img src="../images/sample-image.jpg" alt="광고 이미지">
+                            <div class="text">
+                                <span class="title">Cha & Kwon</span>
+                                <span class="label">변호사 및 법률 사무소</span>
+                                <span class="label">정천수 님 외 2명이 이 페이지를 좋아합니다</span>
+                            </div>
+                            <button>좋아요</button>
+                            <span class="btn-box"><img src="../images/close.png" alt="닫기버튼"> </span>
+
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="card">
+                            <img src="../images/sample-image.jpg" alt="광고 이미지">
+                            <div class="text">
+                                <span class="title">Cha & Kwon</span>
+                                <span class="label">변호사 및 법률 사무소</span>
+                                <span class="label">정천수 님 외 2명이 이 페이지를 좋아합니다</span>
+                            </div>
+                            <button>좋아요</button>
+                            <span class="btn-box"><img src="../images/close.png" alt="닫기버튼"> </span>
+
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="card">
+                            <img src="../images/sample-image.jpg" alt="광고 이미지">
+                            <div class="text">
+                                <span class="title">Cha & Kwon</span>
+                                <span class="label">변호사 및 법률 사무소</span>
+                                <span class="label">정천수 님 외 2명이 이 페이지를 좋아합니다</span>
+                            </div>
+                            <button>좋아요</button>
+                            <span class="btn-box"><img src="../images/close.png" alt="닫기버튼"> </span>
+
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="card">
+                            <img src="../images/sample-image.jpg" alt="광고 이미지">
+                            <div class="text">
+                                <span class="title">Cha & Kwon</span>
+                                <span class="label">변호사 및 법률 사무소</span>
+                                <span class="label">정천수 님 외 2명이 이 페이지를 좋아합니다</span>
+                            </div>
+                            <button>좋아요</button>
+                            <span class="btn-box"><img src="../images/close.png" alt="닫기버튼"> </span>
+
+                        </div>
+                    </li>
+                </ul>
+            </section>
+        </main>
+    </body>
+</html>
+<style>
+    body {
+        background-color: #f0f2f5;
+    }
+  * {
+    padding:0;
+    margin:0;
+    list-style: none;
+  }
+  header {
+    text-align:center;
+    padding:10px;
+    background-color: white;
+    box-shadow: 0px 1px 2px rgba(0,0,0,0.1), 0px 1px 2px rgba(0,0,0,0.1);
+  }
+  header h1 {
+    color:blue;
+  }
+.container {
+    width:1000px;
+    height:2000px;
+    
+    /* border:1px solid gray; */
+    margin:20px auto;
+}
+
+.list {
+    display:flex;
+    position:relative;
+    flex-wrap: wrap;
+   
+}
+.list li {
+    width:25%;
+    box-sizing: border-box;
+    min-width: 25%;
+    padding:5px;
+
+}
+.card >img {
+    width:100%;
+    height:140px;
+    object-fit: cover;
+    object-position: top;
+
+}
+.card {
+    width:100%;
+    height:300px;
+    border-radius: 12px;
+    box-shadow:1px 2px rgba(0,0,0,0.1);
+    overflow: hidden;
+    background-color: white;
+    position: relative;
+}
+.title{
+    display:block;
+    font-weight: bold;
+    font-size:16px;
+    margin-bottom: 8px;
+}
+.text {
+    padding:10px;
+}
+.label {
+    display:block;
+    font-size: 14px;
+    color:gray;
+}
+button {
+    width:80%;
+    
+    border:none;
+    cursor:pointer;
+    border-radius: 5px;
+    margin-left: 10%;
+    height:40px;
+    font-size:16px;
+    font-weight: bold;
+    padding:8px 12px;
+}
+.btn-box {
+    width:30px;
+    height:30px;
+    border-radius: 30px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    position:absolute;
+    top:5px;
+    right:0;
+    background-color: rgba(80,80,80,0.2);
+    cursor:pointer;
+
+}
+.btn-box > img {
+    height:16px;
+}
+.card .btn-box :hover {
+    background-color: rgba(80,80,80,0.5);
+}
+
+</style>

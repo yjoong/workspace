@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <meta charset="UTF-8">
+    <head>
+    
+    </head>
+    <body>
+        <div class="login-box">
+            <form>
+                <input class="input-email" type="text" placeholder="이메일 또는 전하번호">
+                <input class="input-pass" type="password" placeholder="비밀번호">
+                <div>
+                <button class="login-button" type="submit">로그인</button>
+               </div>
+               <div>
+                <a href="#">비밀번호를 잊으셨나요?</a>
+               </div>
+               <div class="div-line"></div>
+               <div>
+                <a class="regist" href="#">새계정만들기</a>
+               </div>
+            </form>
+        </div>
+    </body>
+    <style>
+        .login-box {
+            position:relative;
+            width:400px;
+            height:360px;
+            margin:0 auto;
+            
+            margin-top:100px;
+            padding:20px;
+            border-radius:8px;
+            text-align:center;
+            box-shadow:0 2px 4px rgb(0 0 0/10%), 0 8px 16px rgb(0 0 0/10%);
+
+        }
+        .input-email, .input-pass {
+            width:100%;
+            height:48px;
+            border:1px solid #dddfe2;
+            border-radius:5px;
+            box-sizing: border-box;
+            font-size:16px;
+            margin-bottom: 10px;
+            padding:0 10px;
+        }
+
+        .input-email:focus, .input-pass:focus {
+            outline:none !important;
+            border-color:#1877f2;
+            box-shadow:0 0 0 2px #e7f3ff;
+            caret-color:#1877f2;
+        }
+       .login-button {
+        width:100%;
+        height:48px;
+        background-color:#1877f2;
+        border:none;
+        box-sizing: border-box;
+        border-radius: 6px;
+        font-size:20px;
+        color:#ffffff;
+        font-weight:bold;
+        margin-top:12px;
+        cursor:pointer;
+       }
+       .div-line {
+        border-bottom:1px solid #dadde1;
+        width:100%;
+        margin:20px 0;
+       }
+       a:hover {
+        text-decoration: underline;
+       }
+
+       a {
+        margin-top:20px;
+        display:block;
+        color:#1877f2;
+        font-size:14px;
+        cursor:pointer;
+        text-decoration: none;
+        
+       }
+    </style>
+</html>

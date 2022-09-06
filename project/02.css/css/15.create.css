@@ -1,0 +1,20 @@
+@media(max-width:800px) {
+    * {
+        font-size:
+    }
+   main .container {
+        width:100vw;
+    }
+    main .list{
+        width:100vw
+    }
+    main .conainer li {
+        width:33.33333%;
+        box-sizing: border-box;
+    }
+}
+@media(max-width:600px) {
+    main .container li {
+        width:50%;
+    }
+}
